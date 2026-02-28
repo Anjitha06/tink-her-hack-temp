@@ -2,27 +2,41 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# Campus Care 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Pixels
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Anjitha Aravind - College of Engineering Chengannur
+- Member 2: Devananda P Nair- College of Engineering Chengannur
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://campus-care-frontend.vercel.app/
 
 ### Project Description
-[2-3 lines about what your project does]
+CampusCare Portal is a centralized campus management platform that bridges communication between students and administration. It enables students to raise complaints, track resolutions, vote on important issues, and monitor cleaning and maintenance activities — all within a unified system.
+
+The platform promotes transparency, accountability, and structured issue resolution through real-time updates, intelligent status tracking, and systematic maintenance scheduling.
 
 ### The Problem statement
-[What problem are you solving?]
+Educational institutions often face challenges in efficiently managing campus cleaning and maintenance activities. Many schedules are manually recorded, poorly tracked, or inconsistently monitored, leading to delays, missed tasks, and operational inefficiencies.
+
+Additionally, the absence of a centralized system makes it difficult to ensure transparency, track task completion, and maintain accountability.
+
+On top of that, communication gaps in complaint resolution and issue prioritization further reduce the effectiveness of campus management systems.
 
 ### The Solution
-[How are you solving it?]
+CampusCare Portal is designed primarily as a structured schedule management and tracking platform for campus cleaning and maintenance activities. It enables administrators to create, monitor, and manage schedules with intelligent status updates (Scheduled / In Progress / Completed) based on real-time date logic.
+
+In addition to schedule monitoring, the platform integrates:
+	•	A complaint reporting and tracking module
+	•	A voting mechanism to prioritize reported issues
+	•	Role-based dashboards for Admin and Users
+	•	Real-time notifications for status updates and responses
+
+By combining automated schedule tracking with structured issue management, the system ensures transparency, operational efficiency, and continuous campus improvement.
 
 ---
 
@@ -31,25 +45,33 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Languages used: JavaScript
+- Frameworks used: Node.js,Express.js
+- Libraries used: Mongoose,JWT (Authentication)
+- Tools used: VS Code – Development environment
+              Git – Version control
+              GitHub – Repository hosting & collaboration
+              Thunder Client (VS Code Extension) – API testing
+              Vercel – Frontend deployment and hosting platform
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Campus Cleaning Schedule Management: Administrators can create, update, and manage cleaning schedules for different campus areas. Students can view upcoming, ongoing, and completed cleaning activities in real time.
+
+- Maintenance & Complaint Registration System: Students can register maintenance complaints related to campus facilities such as hostels, classrooms, or common areas. Each complaint includes details like area, description, and submission timestamp.
+
+- Community Voting & Issue Prioritization: Students can vote on complaints to highlight urgent or commonly faced issues. This ensures high-impact problems are prioritized by the administration.
+
+- Real-Time Status Tracking:  Each complaint and schedule includes dynamic status updates (Scheduled, In Progress, Completed, Resolved). Users can track progress transparently without needing manual follow-ups.
+
+-Role-Based Authentication System: Separate login systems for Admin and Users ensure secure access control. Admins can manage schedules and respond to complaints, while users can submit and track issues.
+
+-Notification System: Users receive update notifications when their complaints are responded to or resolved, improving communication transparency.
+
+
 
 ---
 
@@ -59,21 +81,13 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+npm install
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+ npm start
 ```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
 
 ---
 
@@ -83,337 +97,229 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![thh login page](https://github.com/user-attachments/assets/8e5f4a74-feb3-4015-b537-c449c12d46a8)
+*Portal face*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![separatelogin](https://github.com/user-attachments/assets/061bc82a-32ac-49af-9fa3-7c38daf051f6)
+*Login Interface for admin and user*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![issue_impact_view_on_admin](https://github.com/user-attachments/assets/a7c23597-7308-4087-b473-03913f1546aa)
+*Prioritising complanits based on statistical comparisons*
 
-#### Diagrams
 
-**System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
-
-**Application Workflow:**
-
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
-
----
-
-### For Hardware:
-
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 #### Build Photos
 
-![Team](Add photo of your team here)
 
-![Components](Add photo of your components here)
-*List out all components shown*
+<img width="1024" height="1024" alt="pixels" src="https://github.com/user-attachments/assets/1b62ccf1-2bdb-4779-88e8-dd5ec845987b" />
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+![thh login page](https://github.com/user-attachments/assets/5fca0069-6550-4d8c-9619-3f06036ec996)
 
-![Final](Add photo of final product here)
-*Explain the final build*
+*Campus Care*
+
+---
 
 ---
 
 ## Additional Documentation
 
-### For Web Projects with Backend:
-
-#### API Documentation
-
-**Base URL:** `https://api.yourproject.com`
-
-##### Endpoints
-
-**GET /api/endpoint**
-- **Description:** [What it does]
-- **Parameters:**
-  - `param1` (string): [Description]
-  - `param2` (integer): [Description]
-- **Response:**
-```json
-{
-  "status": "success",
-  "data": {}
-}
-```
-
-**POST /api/endpoint**
-- **Description:** [What it does]
-- **Request Body:**
-```json
-{
-  "field1": "value1",
-  "field2": "value2"
-}
-```
-- **Response:**
-```json
-{
-  "status": "success",
-  "message": "Operation completed"
-}
-```
-
-[Add more endpoints as needed...]
-
 ---
 
-### For Mobile Apps:
+# For Web Projects with Backend
 
-#### App Flow Diagram
+## API Documentation
 
-![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
-
-#### Installation Guide
-
-**For Android (APK):**
-1. Download the APK from [Release Link]
-2. Enable "Install from Unknown Sources" in your device settings:
-   - Go to Settings > Security
-   - Enable "Unknown Sources"
-3. Open the downloaded APK file
-4. Follow the installation prompts
-5. Open the app and enjoy!
-
-**For iOS (IPA) - TestFlight:**
-1. Download TestFlight from the App Store
-2. Open this TestFlight link: [Your TestFlight Link]
-3. Click "Install" or "Accept"
-4. Wait for the app to install
-5. Open the app from your home screen
-
-**Building from Source:**
-```bash
-# For Android
-flutter build apk
-# or
-./gradlew assembleDebug
-
-# For iOS
-flutter build ios
-# or
-xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
+**Base URL:**  
+```https://campus-care-frontend.vercel.app/ 
 ```
 
 ---
 
-### For Hardware Projects:
+### POST /api/auth/login
 
-#### Bill of Materials (BOM)
+**Description:** Authenticates a student or admin user and returns a JWT token.
 
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
-
-**Total Estimated Cost:** ₹[Amount]
-
-#### Assembly Instructions
-
-**Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
-
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
-
----
-
-### For Scripts/CLI Tools:
-
-#### Command Reference
-
-**Basic Usage:**
-```bash
-python script.py [options] [arguments]
-```
-
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
-
-**Options:**
-- `-h, --help` - Show help message and exit
-- `-v, --verbose` - Enable verbose output
-- `-o, --output FILE` - Specify output file path
-- `-c, --config FILE` - Specify configuration file
-- `--version` - Show version information
-
-**Examples:**
-
-```bash
-# Example 1: Basic usage
-python script.py input.txt
-
-# Example 2: With verbose output
-python script.py -v input.txt
-
-# Example 3: Specify output file
-python script.py -o output.txt input.txt
-
-# Example 4: Using configuration
-python script.py -c config.json --verbose input.txt
-```
-
-#### Demo Output
-
-**Example 1: Basic Processing**
-
-**Input:**
-```
-This is a sample input file
-with multiple lines of text
-for demonstration purposes
-```
-
-**Command:**
-```bash
-python script.py sample.txt
-```
-
-**Output:**
-```
-Processing: sample.txt
-Lines processed: 3
-Characters counted: 86
-Status: Success
-Output saved to: output.txt
-```
-
-**Example 2: Advanced Usage**
-
-**Input:**
+**Request Body:**
 ```json
 {
-  "name": "test",
-  "value": 123
+  "email": "student@college.edu",
+  "password": "password123",
+  "role": "student"
 }
 ```
 
-**Command:**
-```bash
-python script.py -v --format json data.json
-```
-
-**Output:**
-```
-[VERBOSE] Loading configuration...
-[VERBOSE] Parsing JSON input...
-[VERBOSE] Processing data...
+**Response:**
+```json
 {
   "status": "success",
-  "processed": true,
-  "result": {
-    "name": "test",
-    "value": 123,
-    "timestamp": "2024-02-07T10:30:00"
+  "token": "jwt_token_here",
+  "user": {
+    "id": "u123",
+    "name": "Anjitha",
+    "role": "student"
   }
 }
-[VERBOSE] Operation completed in 0.23s
 ```
 
 ---
 
-## Project Demo
+### POST /api/complaints
 
-### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+**Description:** Allows students to submit a cleaning or maintenance complaint.
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
+**Request Body:**
+```json
+{
+  "location": "Block A - 2nd Floor",
+  "category": "Cleaning",
+  "description": "Dust accumulation near staircase",
+  "priority": "medium"
+}
+```
 
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
-
----
-
-## AI Tools Used (Optional - For Transparency Bonus)
-
-If you used AI tools during development, document them here for transparency:
-
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
-
-**Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
-
-**Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
-
-**Percentage of AI-generated code:** [Approximately X%]
-
-**Human Contributions:**
-- Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
-
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
+**Response:**
+```json
+{
+  "status": "success",
+  "message": "Complaint submitted successfully",
+  "complaintId": "c101"
+}
+```
 
 ---
 
-## Team Contributions
+### GET /api/complaints
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+**Description:** Fetches complaints. Admin can view all complaints. Students can view their own complaints.
+
+**Query Parameters:**
+- `status` (pending / in-progress / resolved)
+- `category` (Cleaning / Maintenance)
+
+**Response:**
+```json
+{
+  "status": "success",
+  "data": [
+    {
+      "id": "c101",
+      "location": "Library",
+      "category": "Maintenance",
+      "description": "Broken light",
+      "status": "pending",
+      "createdAt": "2026-02-28T10:30:00Z"
+    }
+  ]
+}
+```
 
 ---
 
-## License
+### PUT /api/complaints/:id
 
-This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
+**Description:** Updates the status of a complaint (Admin only).
 
-**Common License Options:**
-- MIT License (Permissive, widely used)
-- Apache 2.0 (Permissive with patent grant)
-- GPL v3 (Copyleft, requires derivative works to be open source)
+**Request Body:**
+```json
+{
+  "status": "resolved"
+}
+```
+
+**Response:**
+```json
+{
+  "status": "success",
+  "message": "Complaint status updated successfully"
+}
+```
+
+---
+
+### DELETE /api/complaints/:id
+
+**Description:** Deletes a complaint (Admin only).
+
+**Response:**
+```json
+{
+  "status": "success",
+  "message": "Complaint deleted successfully"
+}
+```
+
+---
+
+# System Architecture
+
+Frontend:
+- Built using HTML, CSS, and JavaScript
+- Role-based UI rendering (Student / Admin dashboards)
+
+Backend:
+- Node.js with Express.js
+- RESTful API structure
+- JWT-based authentication
+
+Database:
+- MongoDB for storing users and complaints
+- Separate collections for users and complaint records
+
+Deployment:
+- Frontend deployed using Vercel
+- Backend hosted on Vercel serverless functions
+- Version control using Git and GitHub
+
+---
+
+# Project Demo
+
+Video Link: https://drive.google.com/file/d/1zdh3-huKLYzQtagubgUaKtLB9G3ekvnj/view?usp=sharing
+
+The demo demonstrates:
+- Student login and dashboard access
+- Complaint submission process
+- Admin dashboard overview
+- Complaint filtering and status update
+- Real-time complaint tracking
+
+Live Website: https://campus-care-frontend.vercel.app/ 
+GitHub Repository: https://github.com/Devananda-jpg/CampusCare/tree/main
+
+---
+
+# AI Tools Used (For Transparency)
+
+Tool Used: ChatGPT
+
+Purpose:
+- API design suggestions
+- Debugging backend logic
+- Structuring authentication flow
+- Documentation formatting assistance
+
+Approximate AI-generated code: 20%
+
+Human Contributions:
+- Complete system architecture design
+- Role-based access control implementation
+- Database schema design
+- UI design and layout decisions
+- Testing and deployment configuration
+
+---
+
+# Team Contributions
+
+Anjitha Aravind – Frontend development, API integration, documentation, deployment  
+Devananda P Nair  – Backend development, authentication logic, database management   
+
+---
+
+# License
+
+This project is licensed under the MIT License.
 
 ---
 
